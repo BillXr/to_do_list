@@ -19,3 +19,12 @@ Through vendor i'm able to check and monitor traffic in cluster,watch new databa
 + Mongodb
 + AWS
 + SAAS
+
+## Run
+
+With these commands application will start on port 3000.
+
+Database entries are always available on cluster through Amazon services. 
+
+    npm install
+    node app.js
