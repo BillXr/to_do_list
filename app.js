@@ -1,5 +1,5 @@
 //jshint esversion:6
-
+//apikey=hAYsY7lIcqfKwP2KmYtAfZJnyj6oBkrdl2zHMD8bziO7YRjbxUQfOgaPn3p8Bs0n
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
@@ -14,6 +14,8 @@ app.use(express.static("public"));
 
 mongoose.connect("mongodb+srv://admin-bill:test1234@cluster0.cryhab1.mongodb.net/todolistDB", {useNewUrlParser: true,useUnifiedTopology: true});
 
+//mongoose.connect("mongodb+srv://admin-bill:test1234@cluster0.vemadod.mongodb.net/?retryWrites=true&w=majority",
+//{useNewUrlParser: true,useUnifiedTopology: true});
 const itemsSchema = {
   name: String
 };
